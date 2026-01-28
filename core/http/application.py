@@ -39,7 +39,7 @@ class RiversApplication:
 
     def load_routes(self):
         """
-        Routes de base (exemple)
+        Routes de base
         """
 
         def home(request):
