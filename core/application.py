@@ -4,6 +4,8 @@ from rivers.core.router import Router
 
 
 class RiversApplication:
+    def __init__(self, settings_module=settings):
+        self.settings = settings_module
     """
     Application centrale WSGI de Rivers.
     Gère :
